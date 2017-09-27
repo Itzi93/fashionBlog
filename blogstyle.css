@@ -36,10 +36,9 @@ aside {
 footer {
   clear: both;
   padding-top: 50px;
-  border-top-size: 5px;
-  border-top-color: #D0D0D0;
-  border-top-style: solid;
-  border-top-width: 10%;
+}
+a {
+  text-decoration: none;
 }
 nav ul {
   margin: 0;
@@ -66,6 +65,7 @@ nav li {
 }
 .ad {
   padding-top: 30px;
+  padding-left: 50px;
   padding-bottom: 30px;
   border-top-size: 5px;
   border-top-color: #D0D0D0;
@@ -92,11 +92,13 @@ nav li {
 }
 .additionalInformation {
   text-align: right;
+  padding-bottom: -50px;
 }
 #main {
   float: left;
   width: 60%;
   margin-left: 15px;
+  border-bottom: 1px solid grey;
 }
 #right {
   float: right;
